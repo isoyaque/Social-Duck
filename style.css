@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 244, 207);
+}
+
+#top-navbar {
+    position: relative;
+    background-color: black;
+
+}
+
+#top-navbar ul {
+    display: flex;
+    justify-content: right;
+    margin-right: 5px;
+}
+
+#top-navbar ul li {
+    color: white;
+    margin: 5px;
+    padding: 1px 5px;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+#navbar {
+    background-color: rgb(255, 237, 177);
+}
+
+#navbar ul {
+    justify-content: right;
+    display: flex;
+    
+
+}
+
+#navbar ul li {
+    color: rgb(255, 219, 59);
+    font-weight: bolder;
+    font-size: 25px;
+    text-shadow:
+        3px 3px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    list-style: none;
+    margin: 20PX 10px;
+    cursor: pointer;
+}
+
+#navbar ul li:hover {
+    color: rgb(255, 216, 44);
+
+}
+
+#espaco {
+    flex: 1;
+}
+
+#left {
+    justify-content: center;
+    padding-left: 1rem;
+    text-align: center;
+    background-color: rgb(255, 218, 98);
+    height: 50rem;
+    position: fixed;
+    width: 20%;
+    z-index: 9;
+}
+
+#left p {
+    margin-top: 3.1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#left-list {
+    margin: 5rem auto;
+    width: 60%;
+    text-align: left;
+}
+
+#left-list ul {
+    list-style: none;
+}
+
+#left-list ul li {
+    width: 100%;
+    padding: .3rem .6rem;
+    background-color: rgb(234, 255, 116);
+    margin: .5rem 0;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.75);
+    transition: .5s;
+}
+
+#left-list ul li:hover{
+    background-color: rgb(255, 244, 85);
+}
+
+#profile-pic {
+    height: 13rem;
+    width: 10rem;
+    background-image: url(imagens/brinquedo-de-pato-pixelado-brinquedo-de-pato-pixelado-brinquedo-de-pato-de-banheiro-pixelado-para-a-arte-de-pixel_1038602-846.avif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: -3rem auto;
+    z-index: 100;
+}
+
+#quack {
+    display: flex;
+}
+
+#pensamento {
+    margin: 0 auto;
+    text-align: center;
+    flex: 3;
+    padding-top: 2rem;
+    padding-bottom: 50rem ;
+}
+
+#pensamento p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#pensamento textarea {
+    width: 50%;
+    height: 10rem;
+    border-radius: 30px;
+    padding: 1rem;
+    resize: none;
+    background-color: rgb(255, 255, 232);
+    border: 1px solid rgb(128, 128, 0);
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#buttons {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+#buttons button {
+    width: 20rem;
+    margin-left: 1rem;
+    background-color: #2b2b2b;
+    font-weight: 500;
+    color: rgb(255, 255, 133);
+    font-size: 1.5rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#buttons button:hover {
+    background-color: #1f1f1f;
+    color: rgb(255, 255, 79);
+
+}
+
+#i {
+    font-size: 1.5rem;
+    justify-content: left;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+#topics {
+    flex: 1;
+    background-color: rgb(255, 255, 150);
+    position: fixed;
+    width: 20%;
+    right: 0;
+    text-align: center;
+    height: 100vh;
+    z-index: 9;
+}
+
+#topics p{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+#topics li{
+    list-style-image: url(imagens/Design\ sem\ nome\ \(13\).png);
+    text-align: left;
+    list-style-position: inside;
+    margin: .5rem 1rem;
+    font-weight: 300;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
